@@ -32,4 +32,10 @@ public interface AdService {
 
     public void delete(Integer id);
 
+    /**
+     * description:根据广告位置查询广告列表
+     * @param position 广告位置
+     * @return java.util.List<com.qingcheng.pojo.business.Ad>
+     */
+    public List<Ad> findByPosition(String position);
 }

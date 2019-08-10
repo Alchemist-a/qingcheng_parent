@@ -32,4 +32,10 @@ public interface CategoryService {
 
     public void delete(Integer id);
 
+    /**
+     * description: 查询分类（树形结构）
+     * @param
+     * @return java.util.List<java.util.Map>
+     */
+    public List<Map> findCategoryTree();
 }
